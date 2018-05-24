@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestrouBonus : MonoBehaviour {
 
-    [SerializeField] float lifeTime = 5f;
+    [SerializeField] float lifeTime = 5f;//test
     float time;
     void Start () {
         time = Time.deltaTime;
